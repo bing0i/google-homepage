@@ -1,5 +1,30 @@
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding-top: 150px;
 }
+
+form {
+    display: block;
+    text-align: center;
+}
+
+#leftbutton {
+    display: block-inline;
+    margin-left: 817px
+}
+
+ul, li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#navbarright {
+    padding-left: 1500
+}
+
+#footerright {
+    padding-left: 1260px;
+}
+
+
