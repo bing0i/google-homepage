@@ -1,17 +1,36 @@
+body, button {
+    font-family: 'Courier Prime', monospace;
+    background-color: black;
+    color: white;
+}
+
 img {
     display: block;
     margin: auto;
     padding-top: 150px;
 }
 
-form {
-    display: block;
-    text-align: center;
+input {
+    position: relative;;
+    left: 40.5%;
+}
+
+button {
+    background-color: dimgray;
+    border-radius: 2px;
+    border: none;
+    color: whitesmoke;
+    padding: 5px 10px;
 }
 
 #leftbutton {
-    display: block-inline;
-    margin-left: 817px
+    position: absolute;
+    right: 50.2%
+}
+
+#rightbutton {
+    position: absolute;
+    left: 50.2%
 }
 
 ul, li {
@@ -19,12 +38,33 @@ ul, li {
     list-style-type: none;
 }
 
+#navbarleft {
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
 #navbarright {
-    padding-left: 1500
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#footerleft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 #footerright {
-    padding-left: 1260px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 
