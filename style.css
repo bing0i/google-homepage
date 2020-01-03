@@ -1,7 +1,6 @@
 body, button {
     font-family: 'Courier Prime', monospace;
-    background-color: black;
-    color: white;
+    background-color:  #1a1a1a;
 }
 
 img {
@@ -18,13 +17,15 @@ input[type=text] {
     border-radius: 20px;
     border: none;
     outline: none;
+    background-color: black;
+    color: white;
 }
 
 button {
-    background-color: dimgray;
+    background-color: #333333;
     border-radius: 2px;
     border: none;
-    color: whitesmoke;
+    color: #808080;
     padding: 5px 10px;
 }
 
@@ -73,4 +74,11 @@ ul, li {
     margin-bottom: 0px;
 }
 
+a {
+    color: #808080;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+}
