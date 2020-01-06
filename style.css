@@ -44,6 +44,7 @@ button {
     color: #808080;
     padding: 10px 25px;
     font-size: medium;
+    outline: none;
 }
 
 button:hover {
